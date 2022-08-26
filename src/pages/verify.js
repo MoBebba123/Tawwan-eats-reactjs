@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { verifyUser } from "../actions/user";
 
 const Verify = (props) => {
+  useEffect(() => {
+    console.log("zkanel 1");
+  }, []);
   const dispatch = useDispatch();
 
   const [otp, setOtp] = useState("");
