@@ -1,0 +1,50 @@
+.nav_container{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 40px;
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 0.5s ease-out;
+    box-sizing: border-box;
+    display: flex;
+    
+.left{
+    flex: 1;
+    border-radius: 40px 0 0 40px;
+    display: flex;
+    align-items: center;
+    h1{
+        padding-left: 40px;
+        font-size: 40px;
+    }
+}
+
+.right{
+
+    flex: 3;
+    border-radius: 0 40px  40px 0;
+
+}
+}
+.nav_scrolled{
+    position: fixed;
+    width: inherit;
+    background-color: white;
+    transition: all 0.5s ease-out;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    
+.left{
+    flex: 1;
+    background-color: aqua;
+ 
+}
+
+.right{
+    background-color: bisque;
+    flex: 3;
+ 
+}
+}
