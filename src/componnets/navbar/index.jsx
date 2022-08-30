@@ -17,7 +17,11 @@ const Navbar = () => {
         <div className="left">
           <h1>Logo</h1>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <ul>
+            <li></li>
+          </ul>
+        </div>
       </nav>
     </>
   );
